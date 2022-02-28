@@ -1,1 +1,5 @@
-# co2-masstranfser-rate-predictor
+# **Prediction of time taken for CO2 capturing elastic microcapsules to reach saturation at different temperatures by implementing regression model of machine learning.**
+
+On an average a heavy-duty truck in India releases 295 kg of CO2 in a day.  This leads to environmental degradation on a large scale.  The proposed solution outlines a cost-effective method for reducing the CO2 emissions from heavy duty vehicles.  Capturing of CO2 directly from the truck exhaust via polymer microcapsules composed of liquid carbonate cores and highly permeable silicone shells provides a possible solution to this issue.  In order to specify the dimensions of the requisite device and to determine the quantity of microcapsules required we make use of machine learning algorithms.
+
+Our project makes use of azure machine learning designer's no code graphical drag and drop interface to automate designing the pipeline and evaluating the model. We made use of experimental data pertaining to CO2 mass transfer rate to predict the time taken for the microcapsules to be saturated at various temperatures by implementing a regression model and it's corresponding inference pipeline was deployed using  azure container instance (ACI) as a service to predict real time scenarios.
